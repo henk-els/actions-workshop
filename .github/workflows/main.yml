@@ -19,3 +19,8 @@ jobs:
           echo "Hello $MY_ENV"
           echo "Hello $GITHUB_ACTOR"
           echo "The secret is: $SUPER_SECRET"
+      - name: Love Actions
+        uses: mscoutermarsh/cowsays-action@master
+        with:
+          text: "I love actions!"
+          color: "red"
